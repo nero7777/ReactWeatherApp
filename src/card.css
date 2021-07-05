@@ -1,0 +1,13 @@
+.card-body, .card-title, p ,h5 ,img, .col-6, .row {
+    background-color: #FF7C7C;
+    color: white;
+}
+
+.card{
+    border-radius: 30px;
+    overflow: hidden;
+}
+/* .card-body{
+    border-radius: 20px;
+} */
+
