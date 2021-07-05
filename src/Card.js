@@ -10,7 +10,14 @@ function Card(props) {
            
                 <h5 className="card-title" style={{marginTop:"20px" ,fontSize:"44px"}}>{props.name}</h5>
             <img src= {`http://openweathermap.org/img/wn/${props.icon}@4x.png`}  alt="..." />
-            <div className="row" style={{padding:"5px 20px"}}>
+            <div className="row" style={{padding:"5px 5px"}}>
+            <div className="col-6">
+                <h3 className="card-title" style={{textDecoration:"underline",marginBottom:"10px"}}>Weather</h3>
+                </div>
+                <div className="col-6" >
+                <p className="card-text" style={{textDecoration:"underline",marginBottom:"5px"}}>Temp ( ℃ )</p>
+                </div>
+
                 <div className="col-6">
                 <h3 className="card-title">{props.mainCondition}</h3>
                 </div>
