@@ -97,7 +97,7 @@ function SearchForm() {
         
             <img  style={imageStyle} src="logo.png" alt="Weather app logo"></img>
             
-            <label style={labelStyle}>Serch Weather By City Name </label>
+            <label style={labelStyle}>Search Weather By City Name </label>
             
             <input type="text" placeholder="City Name" style={inputStyle} name="city" value={city} onChange={changeHandler}></input>
 
